@@ -1,0 +1,4 @@
+piso del primer nivel:
+
+se quito los filtros del asset, los pixeles por unidad son de 180 pero los redujimos a 1px
+para eliminar lineas blancas molestas.
