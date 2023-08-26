@@ -1,68 +1,89 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 
 public class rat_controller : MonoBehaviour
 {
     //referencias
     private Rigidbody2D own_rb;
+    [SerializeField] Rigidbody2D key_rb;
    
 
     //sistema de movimiento
     [SerializeField] float up_force = 2f;
     [SerializeField] float velocity = 2f;
-    private Vector2 new_position = Vector2.zero;
+    bool isLeft = false;
+    bool isRight = false;
     private bool is_on_floor;
 
-
-    // Start is called before the first frame update
+    //sistema de victoria
+    private bool have_a_key = false;
+    private bool free = false;
     private void Start()
     {   
         own_rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        own_rb.position += new_position;
-    }   
-
-
-    public void OnMovePlayer(InputValue value)
-    {
-        float dir = value.Get<float>();
-        new_position.x = dir * velocity * Time.deltaTime; 
-    }
-    public void OnJump() 
-    {
-        if (is_on_floor)
-        {
-            own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
-            is_on_floor=false;
-        }
         
     }
-    
+    private void Update()
+    {
+        
+    }   
+
+    //Control de botones
+    public void clickRight()
+    {
+        //clickeado
+        isRight = true;
+    }
+    public void realeaseRight()
+    {
+        //soltado
+        isRight = false;
+    }
+    public void clickLeft()
+    {
+        //clickeado
+        isLeft = true;
+    }
+    public void realeaseLeft()
+    {
+        //soltado
+        isLeft = false;
+    }
+
+    private void FixedUpdate()
+    {
+        if (isLeft)
+        {
+            own_rb.AddForce(new Vector2(-velocity,0) * Time.deltaTime);
+        }
+
+        if (isRight)
+        {
+            own_rb.AddForce(new Vector2(velocity, 0) * Time.deltaTime);
+        }
+    }
+
+
+
+
+    //deteccion del suelo
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        //deteccion del suelo
+    {    
+        //con el suelo
         if (collision.collider.CompareTag("grass"))
         {
             is_on_floor = true;
         }
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("muerte"))
+        //con la jaula
+        if (collision.collider.CompareTag("jaula")&& have_a_key)
         {
-            //muerte del personaje
-            own_rb.position = new Vector2(-7.5f,6f);
-            Debug.Log("ATRAVESANDO");
-
+            //CONDICION DE VICTORIA
+            free = true;
+        } else if (collision.collider.CompareTag("jaula") && !have_a_key)
+        {
+            Debug.Log("no tenes llave");
         }
 
     }
@@ -74,7 +95,32 @@ public class rat_controller : MonoBehaviour
             is_on_floor = false;
         }
     }
+    public void OnButtonJump() 
+    {
+        if (is_on_floor)
+        {
+            own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
+            is_on_floor=false;
+        }
+        
+    }
+    
 
+    //control de muerte
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("muerte"))
+        {
+            //muerte del personaje
+            own_rb.position = new Vector2(-7.5f,6f);
+        }
+        if (collision.CompareTag("llave"))
+        {
+            //recoleccion de la llave
+            have_a_key = true;
+            Destroy(key_rb);
+        }
 
+    }
 
-}
+}//final
