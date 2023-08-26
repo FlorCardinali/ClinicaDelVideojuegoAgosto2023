@@ -27,7 +27,28 @@ public class rat_controller : MonoBehaviour
     }
     private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            clickLeft();
+        }
+        else if (Input.GetKeyUp(KeyCode.A))
+        {
+            realeaseLeft();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            clickRight();
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            realeaseRight();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnButtonJump();
+        }
+
     }   
 
     //Control de botones
@@ -50,6 +71,15 @@ public class rat_controller : MonoBehaviour
     {
         //soltado
         isLeft = false;
+    }
+    public void OnButtonJump() 
+    {
+        if (is_on_floor)
+        {
+            own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
+            is_on_floor=false;
+        }
+        
     }
 
     private void FixedUpdate()
@@ -95,15 +125,6 @@ public class rat_controller : MonoBehaviour
             is_on_floor = false;
         }
     }
-    public void OnButtonJump() 
-    {
-        if (is_on_floor)
-        {
-            own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
-            is_on_floor=false;
-        }
-        
-    }
     
 
     //control de muerte
@@ -118,7 +139,9 @@ public class rat_controller : MonoBehaviour
         {
             //recoleccion de la llave
             have_a_key = true;
-            Destroy(key_rb);
+            //Destroy(key_rb.gameObject);
+            Destroy(collision.gameObject);
+
         }
 
     }
