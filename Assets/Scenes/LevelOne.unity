@@ -677,7 +677,7 @@ Transform:
   m_GameObject: {fileID: 519205137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.82, z: -20}
+  m_LocalPosition: {x: -3.6596577, y: 1.42, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -771,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.82, z: -20}
+  m_LocalPosition: {x: -3.6596577, y: 1.42, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be560d4b4567114b84c420291e39458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxMultiplier: 0.6
+  parallaxMultiplier: 0.4
 --- !u!1 &862682334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,17 +1613,17 @@ MonoBehaviour:
   m_YDamping: 2.2
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenX: 0.51
+  m_ScreenY: 0.3
   m_CameraDistance: 20
   m_DeadZoneWidth: 0.27
-  m_DeadZoneHeight: 0.29
+  m_DeadZoneHeight: 0.38
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
+  m_SoftZoneWidth: 0.63
+  m_SoftZoneHeight: 1.11
   m_BiasX: 0
-  m_BiasY: 0
+  m_BiasY: 0.114
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
