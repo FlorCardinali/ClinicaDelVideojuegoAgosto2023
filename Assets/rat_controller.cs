@@ -7,7 +7,6 @@ public class rat_controller : MonoBehaviour
 {
     //referencias
     private Rigidbody2D own_rb;
-    [SerializeField] Rigidbody2D key_rb;
    
 
     //sistema de movimiento
@@ -17,9 +16,6 @@ public class rat_controller : MonoBehaviour
     bool isRight = false;
     private bool is_on_floor;
 
-    //sistema de victoria
-    private bool have_a_key = false;
-    private bool free = false;
     private void Start()
     {   
         own_rb = GetComponent<Rigidbody2D>();
@@ -27,6 +23,8 @@ public class rat_controller : MonoBehaviour
     }
     private void Update()
     {
+
+        //control del teclado
         if (Input.GetKeyDown(KeyCode.A))
         {
             clickLeft();
@@ -106,16 +104,6 @@ public class rat_controller : MonoBehaviour
         {
             is_on_floor = true;
         }
-        //con la jaula
-        if (collision.collider.CompareTag("jaula")&& have_a_key)
-        {
-            //CONDICION DE VICTORIA
-            free = true;
-        } else if (collision.collider.CompareTag("jaula") && !have_a_key)
-        {
-            Debug.Log("no tenes llave");
-        }
-
     }
     private void OnCollisionExit2D(Collision2D collision)
     {   
@@ -135,15 +123,7 @@ public class rat_controller : MonoBehaviour
             //muerte del personaje
             own_rb.position = new Vector2(-7.5f,6f);
         }
-        if (collision.CompareTag("llave"))
-        {
-            //recoleccion de la llave
-            have_a_key = true;
-            //Destroy(key_rb.gameObject);
-            Destroy(collision.gameObject);
-
-        }
-
     }
+ 
 
 }//final
