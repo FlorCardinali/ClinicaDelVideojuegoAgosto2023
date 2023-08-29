@@ -9,6 +9,7 @@ TagManager:
   - muerte
   - jaula
   - llave
+  - pared
   layers:
   - Default
   - TransparentFX
@@ -45,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: fondo
+    uniqueID: 3991939397
     locked: 0
   - name: grass
     uniqueID: 3089106647
