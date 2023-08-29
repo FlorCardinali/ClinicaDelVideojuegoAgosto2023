@@ -13,14 +13,10 @@ public class rat_controller : MonoBehaviour
     bool isLeft = false;
     bool isRight = false;
     private bool is_on_floor;
-    private float initialScale;
 
     private void Start()
     {   
         own_rb = GetComponent<Rigidbody2D>();
-        //lo guarde en una variable para que se pueda editar el signo del scale sin 
-        // que se haga " - * - = + "
-        initialScale = transform.localScale.x;
     }
     private void Update()
     {
@@ -86,13 +82,13 @@ public class rat_controller : MonoBehaviour
         if (isLeft)
         {
             //rotacion del personaje.
-            transform.localScale = new Vector2(-initialScale , transform.localScale.y);
+            transform.localScale = new Vector2(-1 , 1);
             own_rb.AddForce(new Vector2(-velocity,0) * Time.deltaTime);
         }
 
         if (isRight)
         {
-            transform.localScale = new Vector2(initialScale, transform.localScale.y);
+            transform.localScale = new Vector2(1, 1);
             own_rb.AddForce(new Vector2(velocity, 0) * Time.deltaTime);
         }
     }
