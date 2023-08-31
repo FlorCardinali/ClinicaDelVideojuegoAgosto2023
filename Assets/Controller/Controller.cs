@@ -1,23 +1,25 @@
 using UnityEngine;
 
 
-public class rat_controller : MonoBehaviour
+public class controller : MonoBehaviour
 {
     //referencias
-    private Rigidbody2D own_rb;
+    protected Rigidbody2D own_rb;
    
 
     //sistema de movimiento
-    [SerializeField] float up_force = 2f;
-    [SerializeField] float velocity = 2f;
+    [SerializeField] protected float up_force = 2f;
+    [SerializeField] protected float velocity = 2f;
     bool isLeft = false;
     bool isRight = false;
-    private bool is_on_floor;
+    protected bool is_on_floor;
+    protected Vector2 spawn;
 
     private void Start()
     {   
         own_rb = GetComponent<Rigidbody2D>();
-    }
+        spawn = own_rb.position;
+}
     private void Update()
     {
 
@@ -121,7 +123,7 @@ public class rat_controller : MonoBehaviour
         if (collision.CompareTag("muerte"))
         {
             //muerte del personaje
-            own_rb.position = new Vector2(-7.5f,6f);
+            own_rb.position = spawn;
         }
     }
  
