@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 97df25a1842cf044993daee2e54e8feb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8263709460716768541
+    second: Menu_de_pausa_0
+  - first:
+      213: 8478417802518756151
+    second: Menu_de_pausa_1
+  - first:
+      213: 1510678117614921649
+    second: Menu_de_pausa_2
+  - first:
+      213: 2354055937837137800
+    second: Menu_de_pausa_3
+  - first:
+      213: 3546617808472117242
+    second: Menu_de_pausa_4
+  - first:
+      213: 1387838288028199354
+    second: Menu_de_pausa_5
+  - first:
+      213: 4010750151176783939
+    second: Menu_de_pausa_6
+  - first:
+      213: -656128149211083088
+    second: Menu_de_pausa_7
+  - first:
+      213: -8167317526252012513
+    second: Menu_de_pausa_8
+  - first:
+      213: -8017181217139333583
+    second: Menu_de_pausa_9
+  - first:
+      213: -5158422445939660243
+    second: Menu_de_pausa_10
+  - first:
+      213: 2746243006936717357
+    second: Menu_de_pausa_11
+  - first:
+      213: 155793409674669003
+    second: Menu_de_pausa_12
+  - first:
+      213: 2793044174718225042
+    second: Menu_de_pausa_13
+  - first:
+      213: -7133736733451833512
+    second: Menu_de_pausa_14
+  - first:
+      213: 8080797595390146047
+    second: Menu_de_pausa_15
+  - first:
+      213: 8546128583230152188
+    second: Menu_de_pausa_16
+  - first:
+      213: 2859927609426505925
+    second: Menu_de_pausa_17
+  - first:
+      213: -566189121524250080
+    second: Menu_de_pausa_18
+  - first:
+      213: 7118903183469486277
+    second: Menu_de_pausa_19
+  - first:
+      213: -491433827098424703
+    second: Menu_de_pausa_20
+  - first:
+      213: -7812274089240667382
+    second: Menu_de_pausa_21
+  - first:
+      213: 2316075768429390208
+    second: Menu_de_pausa_22
+  - first:
+      213: -8336884024514761561
+    second: Menu_de_pausa_23
+  - first:
+      213: -4392283045571167873
+    second: Menu_de_pausa_24
+  - first:
+      213: -6886733321666180144
+    second: Menu_de_pausa_25
+  - first:
+      213: 3552881629338917594
+    second: Menu_de_pausa_26
+  - first:
+      213: 3595986592641602667
+    second: Menu_de_pausa_27
+  - first:
+      213: -6676934091359611079
+    second: Menu_de_pausa_28
+  - first:
+      213: 2018641953111916372
+    second: Menu_de_pausa_29
+  - first:
+      213: -6869200261922119563
+    second: Menu_de_pausa_30
+  - first:
+      213: -8394402464470525270
+    second: Menu_de_pausa_31
+  - first:
+      213: -2171452436467585
+    second: Menu_de_pausa_32
+  - first:
+      213: 8012756159388168630
+    second: Menu_de_pausa_33
+  - first:
+      213: -6591049303107419870
+    second: Menu_de_pausa_34
+  - first:
+      213: -9204566974795746040
+    second: Menu_de_pausa_35
+  - first:
+      213: 5387945160401112635
+    second: Menu_de_pausa_36
+  - first:
+      213: 9175641991408387935
+    second: Menu_de_pausa_37
+  - first:
+      213: 3547801250663968109
+    second: Menu_de_pausa_38
+  - first:
+      213: -3261558886017268706
+    second: Menu_de_pausa_39
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu_de_pausa_0
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1804
+        width: 73
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e231fa4708615d80800000000000000
+      internalID: -8263709460716768541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1778
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b7a70221469a570800000000000000
+      internalID: 8478417802518756151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 999
+        width: 31
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7a46a7eb107f410800000000000000
+      internalID: 1510678117614921649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 1657
+        height: 1507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f7e2437694ba020800000000000000
+      internalID: 2354055937837137800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_4
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1058
+        width: 12
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff0e042b1e183130800000000000000
+      internalID: 3546617808472117242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_5
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 488
+        width: 9
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab96b93e197924310800000000000000
+      internalID: 1387838288028199354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_6
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 433
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3488cbb330c09a730800000000000000
+      internalID: 4010750151176783939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 389
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be8323bce6f4e6f0800000000000000
+      internalID: -656128149211083088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 336
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c3def6bfbd7ae80800000000000000
+      internalID: -8167317526252012513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_9
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 335
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136e97ce8204db090800000000000000
+      internalID: -8017181217139333583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_10
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 225
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a6d5cad1a9968b0800000000000000
+      internalID: -5158422445939660243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_11
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 203
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d281d5fe67d9c1620800000000000000
+      internalID: 2746243006936717357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_12
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 179
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb610ad74d792200800000000000000
+      internalID: 155793409674669003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_13
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 126
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29acd04f0e2e2c620800000000000000
+      internalID: 2793044174718225042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_14
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 138
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fa271bc30effc90800000000000000
+      internalID: -7133736733451833512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_15
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 133
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57f0f5992c42070800000000000000
+      internalID: 8080797595390146047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_16
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 135
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdde38caa2f99670800000000000000
+      internalID: 8546128583230152188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_17
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 115
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0f23b120180b720800000000000000
+      internalID: 2859927609426505925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_18
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 95
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a4bd76efd7428f0800000000000000
+      internalID: -566189121524250080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_19
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 118
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0a8115abc6bc260800000000000000
+      internalID: 7118903183469486277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_20
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 106
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a0039b9831e29f0800000000000000
+      internalID: -491433827098424703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_21
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 30
+        width: 34
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b52d66b1a359390800000000000000
+      internalID: -7812274089240667382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_22
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 108
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089af1ae3aa542020800000000000000
+      internalID: 2316075768429390208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_23
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 68
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac2b2186207d4c80800000000000000
+      internalID: -8336884024514761561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_24
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 53
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7972c367d97b03c0800000000000000
+      internalID: -4392283045571167873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_25
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 26
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbcd3b08886d60a0800000000000000
+      internalID: -6886733321666180144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_26
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 82
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adad1c5940f5e4130800000000000000
+      internalID: 3552881629338917594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_27
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 16
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64587fe0c287e130800000000000000
+      internalID: 3595986592641602667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_28
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 17
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93790dfd1d3c653a0800000000000000
+      internalID: -6676934091359611079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_29
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fbfef3928a30c10800000000000000
+      internalID: 2018641953111916372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_30
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 21
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570ac11a1c2bba0a0800000000000000
+      internalID: -6869200261922119563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_31
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa129b1f67118b80800000000000000
+      internalID: -8394402464470525270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_32
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 28
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70b0e4531948fff0800000000000000
+      internalID: -2171452436467585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_33
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1b7280647033f60800000000000000
+      internalID: 8012756159388168630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_34
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 59
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22142376493e784a0800000000000000
+      internalID: -6591049303107419870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_35
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805f104ba1fc24080800000000000000
+      internalID: -9204566974795746040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 75
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e4efaa393d5ca40800000000000000
+      internalID: 5387945160401112635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_37
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 6
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f570e0cc6cd665f70800000000000000
+      internalID: 9175641991408387935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_38
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d238fb0725c3130800000000000000
+      internalID: 3547801250663968109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_pausa_39
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 7
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e140ce0497d9cb2d0800000000000000
+      internalID: -3261558886017268706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
