@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5bf26596718420c4f9509761084cb2bf
+guid: d86f98d12c4848f45b0a9b304d8bbddd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7475096300519192202
-    second: Pasto_2_0
+      213: 711061961133683776
+    second: Fondo_fijo_final_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -146,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pasto_2_0
+      name: Fondo_fijo_final_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 0
         y: 0
-        width: 144
-        height: 157
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67987b9f48f134890800000000000000
-      internalID: -7475096300519192202
+      spriteID: 0447aa616133ed900800000000000000
+      internalID: 711061961133683776
       vertices: []
       indices: 
       edges: []
@@ -177,7 +177,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pasto_2_0: -7475096300519192202
+      Fondo_fijo_final_0: 711061961133683776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
