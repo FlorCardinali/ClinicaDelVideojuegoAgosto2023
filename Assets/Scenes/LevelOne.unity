@@ -586,7 +586,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2066866864}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
           m_MethodName: clickRight
           m_Mode: 1
@@ -602,7 +602,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2066866864}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
           m_MethodName: realeaseRight
           m_Mode: 1
@@ -679,7 +679,7 @@ Transform:
   m_GameObject: {fileID: 519205137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.33, y: 2.82, z: -20}
+  m_LocalPosition: {x: -8.4, y: -0.55, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -773,7 +773,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.33, y: 2.82, z: -20}
+  m_LocalPosition: {x: -8.4, y: -0.55, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1428,7 +1428,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2066866864}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
           m_MethodName: OnButtonJump
           m_Mode: 1
@@ -1711,7 +1711,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2066866864}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
           m_MethodName: clickLeft
           m_Mode: 1
@@ -1727,7 +1727,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2066866864}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
           m_MethodName: realeaseLeft
           m_Mode: 1
@@ -1911,6 +1911,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2674381f80f4ae4fb6afcfc9447d1c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1666118332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1666118333}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1666118333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666118332}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.4, y: -0.55, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 2066866860}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1681266447
 GameObject:
   m_ObjectHideFlags: 0
@@ -14250,7 +14282,7 @@ GameObject:
   - component: {fileID: 2066866859}
   - component: {fileID: 2066866862}
   - component: {fileID: 2066866861}
-  - component: {fileID: 2066866864}
+  - component: {fileID: 2066866865}
   m_Layer: 3
   m_Name: rat
   m_TagString: Player
@@ -14318,12 +14350,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066866858}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.33, y: 2.82, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1666118333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2066866861
 BoxCollider2D:
@@ -14398,7 +14430,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &2066866864
+--- !u!114 &2066866865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14407,7 +14439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066866858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19a72fe45e69c8c43833c122a06ffff7, type: 3}
+  m_Script: {fileID: 11500000, guid: 340e18dab6c64c94082a78a4cf34a586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   up_force: 25
@@ -14419,9 +14451,9 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 519205139}
   - {fileID: 297847455}
-  - {fileID: 2066866860}
   - {fileID: 644349087}
   - {fileID: 1808080334}
   - {fileID: 1273596844}
   - {fileID: 1943235332}
   - {fileID: 1172514826}
+  - {fileID: 1666118333}
