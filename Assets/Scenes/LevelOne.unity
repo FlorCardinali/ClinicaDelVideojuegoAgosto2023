@@ -935,7 +935,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 0
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -2142,6 +2142,7 @@ GameObject:
   - component: {fileID: 1273596842}
   - component: {fileID: 1273596841}
   - component: {fileID: 1273596845}
+  - component: {fileID: 1273596846}
   m_Layer: 3
   m_Name: Jaula
   m_TagString: jaula
@@ -2301,6 +2302,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2674381f80f4ae4fb6afcfc9447d1c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1273596846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273596840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e707b057751f1e44b083158ec62feb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prueba: Main Menu
+  sceneChange:
+    m_Handle: 0
 --- !u!1 &1666118332
 GameObject:
   m_ObjectHideFlags: 0

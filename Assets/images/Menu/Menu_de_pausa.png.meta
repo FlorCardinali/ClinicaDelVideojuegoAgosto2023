@@ -211,6 +211,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1064,7 +1100,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Menu_de_pausa_0: -8263709460716768541
+      Menu_de_pausa_1: 8478417802518756151
+      Menu_de_pausa_10: -5158422445939660243
+      Menu_de_pausa_11: 2746243006936717357
+      Menu_de_pausa_12: 155793409674669003
+      Menu_de_pausa_13: 2793044174718225042
+      Menu_de_pausa_14: -7133736733451833512
+      Menu_de_pausa_15: 8080797595390146047
+      Menu_de_pausa_16: 8546128583230152188
+      Menu_de_pausa_17: 2859927609426505925
+      Menu_de_pausa_18: -566189121524250080
+      Menu_de_pausa_19: 7118903183469486277
+      Menu_de_pausa_2: 1510678117614921649
+      Menu_de_pausa_20: -491433827098424703
+      Menu_de_pausa_21: -7812274089240667382
+      Menu_de_pausa_22: 2316075768429390208
+      Menu_de_pausa_23: -8336884024514761561
+      Menu_de_pausa_24: -4392283045571167873
+      Menu_de_pausa_25: -6886733321666180144
+      Menu_de_pausa_26: 3552881629338917594
+      Menu_de_pausa_27: 3595986592641602667
+      Menu_de_pausa_28: -6676934091359611079
+      Menu_de_pausa_29: 2018641953111916372
+      Menu_de_pausa_3: 2354055937837137800
+      Menu_de_pausa_30: -6869200261922119563
+      Menu_de_pausa_31: -8394402464470525270
+      Menu_de_pausa_32: -2171452436467585
+      Menu_de_pausa_33: 8012756159388168630
+      Menu_de_pausa_34: -6591049303107419870
+      Menu_de_pausa_35: -9204566974795746040
+      Menu_de_pausa_36: 5387945160401112635
+      Menu_de_pausa_37: 9175641991408387935
+      Menu_de_pausa_38: 3547801250663968109
+      Menu_de_pausa_39: -3261558886017268706
+      Menu_de_pausa_4: 3546617808472117242
+      Menu_de_pausa_5: 1387838288028199354
+      Menu_de_pausa_6: 4010750151176783939
+      Menu_de_pausa_7: -656128149211083088
+      Menu_de_pausa_8: -8167317526252012513
+      Menu_de_pausa_9: -8017181217139333583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

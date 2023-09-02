@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,13 +27,18 @@ public class GameManager : MonoBehaviour
     {
         haveKey = true;
     }
-    public void TocarJaula()
+    public bool TocarJaula()
     {
-        if (haveKey)
+        bool request = true;
+        if (!haveKey)
         {
-            //CONDICION DE VICTORIA
-            Debug.Log("GAANAR");
+            request=  false;
         }
+        return request;
+    }
+    public void changeScene()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 
 }

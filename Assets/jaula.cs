@@ -6,7 +6,11 @@ public class jaula : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameManager.instance.TocarJaula();
+            bool changeScene = GameManager.instance.TocarJaula();
+            if (changeScene) {
+                GameManager.instance.changeScene();
+            }
+           
         }
 
     }
