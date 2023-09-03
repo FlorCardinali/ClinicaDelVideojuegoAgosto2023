@@ -12,6 +12,7 @@ public class controller : MonoBehaviour
     [SerializeField] protected float velocity = 2f;
     bool isLeft = false;
     bool isRight = false;
+    protected bool press_x = false;
     protected bool is_on_floor;
     protected Vector2 spawn;
 
@@ -20,7 +21,7 @@ public class controller : MonoBehaviour
         own_rb = GetComponent<Rigidbody2D>();
         spawn = own_rb.position;
 }
-    private void Update()
+    public virtual void Update()
     {
 
         //control del teclado
@@ -44,6 +45,10 @@ public class controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             OnButtonJump();
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            press_x = true;
         }
 
     }   
@@ -75,8 +80,12 @@ public class controller : MonoBehaviour
         {
             own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
             is_on_floor=false;
-        }
-        
+        }   
+    }
+    public void realeaseX()
+    {
+        //soltado
+        press_x = false;
     }
 
     private void FixedUpdate()

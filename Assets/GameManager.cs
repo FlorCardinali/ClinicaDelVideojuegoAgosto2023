@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     }
     public void changeScene()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("LevelTwo");
     }
 
 }

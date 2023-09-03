@@ -719,8 +719,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
+        - m_Target: {fileID: 2066866863}
+          m_TargetAssemblyTypeName: controller, Assembly-CSharp
           m_MethodName: clickRight
           m_Mode: 1
           m_Arguments:
@@ -735,8 +735,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
+        - m_Target: {fileID: 2066866863}
+          m_TargetAssemblyTypeName: controller, Assembly-CSharp
           m_MethodName: realeaseRight
           m_Mode: 1
           m_Arguments:
@@ -812,7 +812,7 @@ Transform:
   m_GameObject: {fileID: 519205137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5527754, y: 4.984568, z: -19.468552}
+  m_LocalPosition: {x: -12.4, y: -0.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -907,7 +907,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5527754, y: 4.984568, z: -19.468552}
+  m_LocalPosition: {x: -12.4, y: -0.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1818,8 +1818,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
+        - m_Target: {fileID: 2066866863}
+          m_TargetAssemblyTypeName: controller, Assembly-CSharp
           m_MethodName: OnButtonJump
           m_Mode: 1
           m_Arguments:
@@ -2101,8 +2101,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
+        - m_Target: {fileID: 2066866863}
+          m_TargetAssemblyTypeName: controller, Assembly-CSharp
           m_MethodName: clickLeft
           m_Mode: 1
           m_Arguments:
@@ -2117,8 +2117,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: rat_controller, Assembly-CSharp
+        - m_Target: {fileID: 2066866863}
+          m_TargetAssemblyTypeName: controller, Assembly-CSharp
           m_MethodName: realeaseLeft
           m_Mode: 1
           m_Arguments:
@@ -15502,7 +15502,7 @@ GameObject:
   - component: {fileID: 2066866859}
   - component: {fileID: 2066866862}
   - component: {fileID: 2066866861}
-  - component: {fileID: 2066866865}
+  - component: {fileID: 2066866863}
   m_Layer: 3
   m_Name: rat
   m_TagString: Player
@@ -15650,7 +15650,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &2066866865
+--- !u!114 &2066866863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15659,7 +15659,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066866858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340e18dab6c64c94082a78a4cf34a586, type: 3}
+  m_Script: {fileID: 11500000, guid: 19a72fe45e69c8c43833c122a06ffff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   up_force: 25
