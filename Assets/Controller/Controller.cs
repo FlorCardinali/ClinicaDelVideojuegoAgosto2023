@@ -16,12 +16,12 @@ public class controller : MonoBehaviour
     protected bool is_on_floor;
     protected Vector2 spawn;
 
-    private void Start()
+    protected void Start()
     {   
         own_rb = GetComponent<Rigidbody2D>();
         spawn = own_rb.position;
-}
-    public virtual void Update()
+    }
+    public void Update()
     {
 
         //control del teclado
@@ -45,6 +45,7 @@ public class controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             OnButtonJump();
+            Debug.Log("intentaste saltar");
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -76,8 +77,10 @@ public class controller : MonoBehaviour
     }
     public void OnButtonJump() 
     {
+        Debug.Log("entraste a onbuttonjump");
         if (is_on_floor)
         {
+            Debug.Log("tocaste el piso y podes saltar");
             own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
             is_on_floor=false;
         }   
@@ -88,7 +91,7 @@ public class controller : MonoBehaviour
         press_x = false;
     }
 
-    private void FixedUpdate()
+    protected void FixedUpdate()
     {
         if (isLeft)
         {
@@ -108,7 +111,7 @@ public class controller : MonoBehaviour
 
 
     //deteccion del suelo
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected void OnCollisionEnter2D(Collision2D collision)
     {    
         //con el suelo
         if (collision.collider.CompareTag("grass"))
@@ -116,7 +119,7 @@ public class controller : MonoBehaviour
             is_on_floor = true;
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    protected virtual void OnCollisionExit2D(Collision2D collision)
     {   
         //deteccion del suelo
         if (collision.collider.CompareTag("grass"))
@@ -127,7 +130,7 @@ public class controller : MonoBehaviour
     
 
     //control de muerte
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("muerte"))
         {
