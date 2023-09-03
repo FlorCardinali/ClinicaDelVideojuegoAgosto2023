@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     public void changeScene()
     {
         SceneManager.LoadScene("LevelTwo");
+        haveKey = false;
     }
 
 }

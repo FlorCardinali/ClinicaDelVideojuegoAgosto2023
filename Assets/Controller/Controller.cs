@@ -14,7 +14,7 @@ public class controller : MonoBehaviour
     bool isRight = false;
     protected bool press_x = false;
     protected bool is_on_floor;
-    protected Vector2 spawn;
+    public Vector2 spawn;
 
     protected void Start()
     {   
@@ -45,7 +45,6 @@ public class controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             OnButtonJump();
-            Debug.Log("intentaste saltar");
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -77,10 +76,8 @@ public class controller : MonoBehaviour
     }
     public void OnButtonJump() 
     {
-        Debug.Log("entraste a onbuttonjump");
         if (is_on_floor)
         {
-            Debug.Log("tocaste el piso y podes saltar");
             own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
             is_on_floor=false;
         }   
@@ -111,7 +108,7 @@ public class controller : MonoBehaviour
 
 
     //deteccion del suelo
-    protected void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {    
         //con el suelo
         if (collision.collider.CompareTag("grass"))
@@ -119,7 +116,7 @@ public class controller : MonoBehaviour
             is_on_floor = true;
         }
     }
-    protected virtual void OnCollisionExit2D(Collision2D collision)
+    protected void OnCollisionExit2D(Collision2D collision)
     {   
         //deteccion del suelo
         if (collision.collider.CompareTag("grass"))

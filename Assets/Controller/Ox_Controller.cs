@@ -6,7 +6,7 @@ using UnityEngine;
 public class Ox_Controller :  controller
 {
    
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected override void OnCollisionEnter2D(Collision2D collision)
     {
         base.OnCollisionEnter2D(collision);
         if (press_x && collision.collider.CompareTag("piedra"))
