@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: levelTwoAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+    - {fileID: 2800000, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a77b156bac9a54d488faa8ce0044ee05: -102114503
+    - a77b156bac9a54d488faa8ce0044ee05: -1911996672
+    - a77b156bac9a54d488faa8ce0044ee05: -1352560121
+    - a77b156bac9a54d488faa8ce0044ee05: -1094824378
+    - a77b156bac9a54d488faa8ce0044ee05: -1917302166
+    - a77b156bac9a54d488faa8ce0044ee05: 1569363434
+    - a77b156bac9a54d488faa8ce0044ee05: 1492996929
+    - a77b156bac9a54d488faa8ce0044ee05: -1930667006
+    - a77b156bac9a54d488faa8ce0044ee05: 638019174
+    - a77b156bac9a54d488faa8ce0044ee05: 5444963795970371933
+    - a77b156bac9a54d488faa8ce0044ee05: 4717767177966179343
+    - a77b156bac9a54d488faa8ce0044ee05: -7429374439853931403
+    - b4ab22ecc803a2f45b4be2c827b37a1b: 3186950079392105595
+    - b4ab22ecc803a2f45b4be2c827b37a1b: 4673256802578401914
+    - b4ab22ecc803a2f45b4be2c827b37a1b: -3543652330944197946
+    - b4ab22ecc803a2f45b4be2c827b37a1b: 2088157859452239293
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -102114503, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -1911996672, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -1352560121, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -1094824378, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -1917302166, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 1569363434, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 1492996929, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -1930667006, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 638019174, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 5444963795970371933, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 4717767177966179343, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: -7429374439853931403, guid: a77b156bac9a54d488faa8ce0044ee05, type: 3}
+  - {fileID: 3186950079392105595, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
+  - {fileID: 4673256802578401914, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
+  - {fileID: -3543652330944197946, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
+  - {fileID: 2088157859452239293, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tilemap_final_9
+  - Tilemap_final_8
+  - Tilemap_final_7
+  - Tilemap_final_6
+  - Tilemap_final_5
+  - Tilemap_final_10
+  - Tilemap_final_4
+  - Tilemap_final_11
+  - Tilemap_final_3
+  - Tilemap_final_2
+  - Tilemap_final_1
+  - Tilemap_final_0
+  - Tiles_nuevas_2
+  - Tiles_nuevas_3
+  - Tiles_nuevas_0
+  - Tiles_nuevas_1
+  m_RenderDataMap: {}
+  m_Tag: levelTwoAtlas
+  m_IsVariant: 0

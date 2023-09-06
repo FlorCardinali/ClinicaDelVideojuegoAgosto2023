@@ -133,8 +133,8 @@ public class controller : MonoBehaviour
         {
             //muerte del personaje
             own_rb.position = spawn;
+            GameManager.instance.ResetScene();
         }
     }
  
-
 }//final

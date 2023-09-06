@@ -27,19 +27,27 @@ public class GameManager : MonoBehaviour
     {
         haveKey = true;
     }
-    public bool TocarJaula()
+    public void TocarJaula()
     {
-        bool request = true;
-        if (!haveKey)
+        if (haveKey)
         {
-            request=  false;
-        }
-        return request;
+            changeScene(); 
+        }    
     }
     public void changeScene()
     {
         SceneManager.LoadScene("LevelTwo");
-        haveKey = false;
+        ResetGameController();
+    }
+
+    public void ResetGameController() { 
+        haveKey = false;    
+    }
+
+    public void ResetScene()
+    {
+        //reset atado con alambre
+        changeScene();
     }
 
 }
