@@ -236,7 +236,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pads_y_pausa_0: 6703265407473574938
+      Pads_y_pausa_1: 7595656540187560974
+      Pads_y_pausa_2: -8104330570010377905
+      Pads_y_pausa_3: -5147482151466782100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

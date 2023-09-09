@@ -212,7 +212,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Botones op 6_0: 5355450866061447040
+      Botones op 6_1: -1090455896422795996
+      Botones op 6_2: -6451577356553499449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

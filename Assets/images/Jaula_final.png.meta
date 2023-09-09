@@ -188,7 +188,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jaula_final_0: 4275435972717799279
+      Jaula_final_1: 5219327864707400091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
