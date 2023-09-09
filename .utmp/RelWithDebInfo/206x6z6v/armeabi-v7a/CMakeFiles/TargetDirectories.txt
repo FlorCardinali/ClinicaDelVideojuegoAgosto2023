@@ -1,0 +1,5 @@
+C:/Users/jcdom/OneDrive/Documentos/GameJam/ClinicaDelVideojuegoAgosto2023/.utmp/RelWithDebInfo/206x6z6v/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/jcdom/OneDrive/Documentos/GameJam/ClinicaDelVideojuegoAgosto2023/.utmp/RelWithDebInfo/206x6z6v/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/jcdom/OneDrive/Documentos/GameJam/ClinicaDelVideojuegoAgosto2023/.utmp/RelWithDebInfo/206x6z6v/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/jcdom/OneDrive/Documentos/GameJam/ClinicaDelVideojuegoAgosto2023/.utmp/RelWithDebInfo/206x6z6v/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/jcdom/OneDrive/Documentos/GameJam/ClinicaDelVideojuegoAgosto2023/.utmp/RelWithDebInfo/206x6z6v/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
