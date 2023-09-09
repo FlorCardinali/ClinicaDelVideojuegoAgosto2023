@@ -15492,6 +15492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2066866864}
+  sceneName: LevelOne
   up_force: 25
   velocity: 2500
   spawn: {x: 0, y: 0}

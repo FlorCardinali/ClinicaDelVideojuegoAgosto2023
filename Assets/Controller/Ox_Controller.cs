@@ -6,13 +6,19 @@ using UnityEngine;
 public class Ox_Controller :  controller
 {
    
-    protected override void OnCollisionEnter2D(Collision2D collision)
+
+    protected void OnCollisionStay2D(Collision2D collision)
     {
-        base.OnCollisionEnter2D(collision);
-        if (press_x && collision.collider.CompareTag("piedra"))
+        
+        if (collision.collider.CompareTag("piedra"))
+
         {
-            animator.SetTrigger("Attack");
-            Destroy(collision.collider.gameObject);
+            if(press_x)
+            {
+                animator.SetTrigger("Attack");
+                Destroy(collision.collider.gameObject);
+            }
+            
         }
     }
 

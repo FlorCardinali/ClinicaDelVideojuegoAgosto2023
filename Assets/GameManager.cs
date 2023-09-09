@@ -44,10 +44,11 @@ public class GameManager : MonoBehaviour
         haveKey = false;    
     }
 
-    public void ResetScene()
+    public void ResetScene(string scene)
     {
         //reset atado con alambre
-        changeScene();
+        SceneManager.LoadScene(scene);
+        ResetGameController();
     }
     public void abrirMenuGanaste()
     {

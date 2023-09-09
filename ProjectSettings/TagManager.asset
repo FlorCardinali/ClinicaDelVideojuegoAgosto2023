@@ -11,6 +11,7 @@ TagManager:
   - llave
   - pared
   - piedra
+  - Ox
   layers:
   - Default
   - TransparentFX

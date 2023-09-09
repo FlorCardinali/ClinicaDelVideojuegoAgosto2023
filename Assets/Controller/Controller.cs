@@ -6,6 +6,7 @@ public class controller : MonoBehaviour
     //referencias
     protected Rigidbody2D own_rb;
     public Animator animator;
+    [SerializeField] string sceneName;
 
     //sistema de movimiento
     [SerializeField] protected float up_force = 2f;
@@ -49,6 +50,10 @@ public class controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             press_x = true;
+        }
+        else if ( Input.GetKeyUp(KeyCode.X))
+        {
+            press_x = false;
         }
 
     }   
@@ -141,7 +146,7 @@ public class controller : MonoBehaviour
         {
             //muerte del personaje
             own_rb.position = spawn;
-            GameManager.instance.ResetScene();
+            GameManager.instance.ResetScene(sceneName);
         }
     }
  
