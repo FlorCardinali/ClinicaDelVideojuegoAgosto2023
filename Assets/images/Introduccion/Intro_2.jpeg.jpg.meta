@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8c04fb3f897eb004585a4560bc2f30d9
+guid: e78fba151d8ad40488143194a54f305f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5947370571419736300
-    second: Intro_boceto_1_0
+      213: 2621546207998711368
+    second: Intro_2.jpeg_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Intro_boceto_1_0
+      name: Intro_2.jpeg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1200
+        height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce8d511360e498250800000000000000
-      internalID: 5947370571419736300
+      spriteID: 846190af26a916420800000000000000
+      internalID: 2621546207998711368
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Intro_boceto_1_0: 5947370571419736300
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
