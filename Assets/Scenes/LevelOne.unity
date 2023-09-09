@@ -1865,6 +1865,7 @@ MonoBehaviour:
   sfxJaula2: {fileID: 8300000, guid: ad1917769c3b9d14d9e1023f59b4460c, type: 3}
   sfxJaula3: {fileID: 8300000, guid: 49204f255e92c0a44a3b9baeff2a5209, type: 3}
   sfxLlave: {fileID: 8300000, guid: 091d915e4d377c7498f5ef6278112cd3, type: 3}
+  nextScene: LevelTwo
 --- !u!4 &1172514826
 Transform:
   m_ObjectHideFlags: 0

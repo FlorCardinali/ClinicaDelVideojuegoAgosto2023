@@ -53,16 +53,22 @@ public class controller : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
-            press_x = true;
+
+            clickX();
         }
         else if ( Input.GetKeyUp(KeyCode.X))
         {
-            press_x = false;
+            realeaseX();
         }
 
-    }   
+    }
 
     //Control de botones
+    public void clickX()
+    {
+        //clickeado
+        press_x = true;
+    }
     public void clickRight()
     {
         //clickeado

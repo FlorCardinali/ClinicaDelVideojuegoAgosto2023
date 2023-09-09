@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioSource src;
     [SerializeField] AudioClip sfxJaula1, sfxJaula2, sfxJaula3;
     [SerializeField] AudioClip sfxLlave;
+    [SerializeField] string nextScene;
     //control de llave
     public bool haveKey { get; private set;} = false;
 
@@ -70,7 +71,7 @@ public class GameManager : MonoBehaviour
     }
     public void changeScene()
     {
-        SceneManager.LoadScene("LevelTwo");
+        SceneManager.LoadScene(nextScene);
         ResetGameController();
     }
 

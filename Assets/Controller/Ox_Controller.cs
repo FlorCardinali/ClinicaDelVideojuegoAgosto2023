@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Ox_Controller :  controller
 {
+    [SerializeField] string mainMenu = "Main menu";
    
 
     protected void OnCollisionStay2D(Collision2D collision)
@@ -27,5 +28,14 @@ public class Ox_Controller :  controller
         animator.SetTrigger("Attack");
         Destroy(collision.collider.gameObject);
     }
-  
+    protected void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("muerte"))
+        {
+            //muerte del personaje
+            own_rb.position = spawn;
+            GameManager.instance.ResetScene(mainMenu);
+        }
+    }
+
 }
