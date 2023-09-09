@@ -49,5 +49,9 @@ public class GameManager : MonoBehaviour
         //reset atado con alambre
         changeScene();
     }
+    public void abrirMenuGanaste()
+    {
+        
+    }
 
 }

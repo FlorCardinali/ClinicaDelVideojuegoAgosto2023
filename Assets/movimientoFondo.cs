@@ -9,6 +9,7 @@ public class movimientoFondo : MonoBehaviour
 
     private void Awake()
     {
+        
         material = GetComponent<SpriteRenderer>().material;
         playerRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
