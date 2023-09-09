@@ -11,6 +11,7 @@ public class Ox_Controller :  controller
         base.OnCollisionEnter2D(collision);
         if (press_x && collision.collider.CompareTag("piedra"))
         {
+            animator.SetTrigger("Attack");
             Destroy(collision.collider.gameObject);
         }
     }

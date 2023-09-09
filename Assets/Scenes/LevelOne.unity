@@ -15503,6 +15503,7 @@ GameObject:
   - component: {fileID: 2066866862}
   - component: {fileID: 2066866861}
   - component: {fileID: 2066866863}
+  - component: {fileID: 2066866864}
   m_Layer: 3
   m_Name: rat
   m_TagString: Player
@@ -15551,7 +15552,7 @@ SpriteRenderer:
   m_SortingLayerID: 1067830791
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f16e18d9690f42a4882b066d32dccf25, type: 3}
+  m_Sprite: {fileID: -2406521699227368049, guid: 018b971902aa8e643b9290b045038f22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15615,7 +15616,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.805, y: 0.9875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15662,8 +15663,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a72fe45e69c8c43833c122a06ffff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 2066866864}
   up_force: 25
   velocity: 2500
+  spawn: {x: 0, y: 0}
+--- !u!95 &2066866864
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066866858}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab2fbcc6de1bd8448b4568196c4a2bda, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7405100648997015610
 PrefabInstance:
   m_ObjectHideFlags: 0

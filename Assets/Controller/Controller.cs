@@ -5,7 +5,7 @@ public class controller : MonoBehaviour
 {
     //referencias
     protected Rigidbody2D own_rb;
-   
+    public Animator animator;
 
     //sistema de movimiento
     [SerializeField] protected float up_force = 2f;
@@ -78,6 +78,7 @@ public class controller : MonoBehaviour
     {
         if (is_on_floor)
         {
+            animator.SetBool("IsJumping", true);
             own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
             is_on_floor=false;
         }   
@@ -95,12 +96,18 @@ public class controller : MonoBehaviour
             //rotacion del personaje.
             transform.localScale = new Vector2(-1 , 1);
             own_rb.AddForce(new Vector2(-velocity,0) * Time.deltaTime);
+            animator.SetFloat("Speed", velocity* Time.deltaTime);
         }
 
         if (isRight)
         {
             transform.localScale = new Vector2(1, 1);
             own_rb.AddForce(new Vector2(velocity, 0) * Time.deltaTime);
+            animator.SetFloat("Speed", velocity* Time.deltaTime);
+        }
+
+        if(!isLeft && !isRight){
+            animator.SetFloat("Speed", 0);
         }
     }
 
@@ -114,6 +121,7 @@ public class controller : MonoBehaviour
         if (collision.collider.CompareTag("grass"))
         {
             is_on_floor = true;
+            animator.SetBool("IsJumping", false);
         }
     }
     protected void OnCollisionExit2D(Collision2D collision)
