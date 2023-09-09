@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Tiles_que_faltaban_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -3666673, guid: c6ac6b7b5cb63ad4fabf86f24888eaf7, type: 3}
+  m_Sprite: {fileID: -3543652330944197946, guid: b4ab22ecc803a2f45b4be2c827b37a1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

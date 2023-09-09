@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 393e5ccd89551534ca5f395ab4be3ee6
+guid: a28d7670e3f2158439d1cc5780f7188a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6989453166689041220
-    second: Fondo inicio_0
+      213: -4237058472895228779
+    second: Fondo_creditos__0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -83,7 +83,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -95,7 +95,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fondo inicio_0
+      name: Fondo_creditos__0
       rect:
         serializedVersion: 2
         x: 0
@@ -148,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb445496069700f90800000000000000
-      internalID: -6989453166689041220
+      spriteID: 594558e84c1f235c0800000000000000
+      internalID: -4237058472895228779
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Fondo inicio_0: -6989453166689041220
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
