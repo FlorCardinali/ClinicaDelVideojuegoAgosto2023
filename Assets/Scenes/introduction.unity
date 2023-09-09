@@ -487,7 +487,7 @@ MonoBehaviour:
     declar\xF3 la guerra al Emperador de Jade, el gran se\xF1or del cielo, y a sus
     doce guardianes, quienes se encargaban de cuidar el mundo que habitamos."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_sharedMaterial: {fileID: -8878570324001900779, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_margin: {x: 233.22955, y: 109.34119, z: 219.23584, w: 346.247}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &287871715
@@ -691,7 +691,7 @@ MonoBehaviour:
     del mundo y pudiese liberar el resto de sus compa\xF1eres en el camino y que
     la diosa de la fortuna est\xE9 con ella.  "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_sharedMaterial: {fileID: -8878570324001900779, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_margin: {x: 233.22955, y: 109.34119, z: 219.23584, w: 346.247}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &488469573
@@ -825,8 +825,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SKIP
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
+  m_sharedMaterial: {fileID: 1366915131325525472, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1287,8 +1287,8 @@ MonoBehaviour:
     Yan Luo, decidi\xF3 librar una batalla contra las fuerzas que proteg\xEDan el
     \u201CValle de la Luna Nevada\u201D. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
-  m_sharedMaterial: {fileID: -8878570324001900779, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
+  m_sharedMaterial: {fileID: 1366915131325525472, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_text: "Aprision\xF3 a los doce animales del zodiaco en jaulas m\xE1gicas que
     anulaban su magia, debilitando el mundo y asestando un duro golpe al Emperador."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_sharedMaterial: {fileID: -8878570324001900779, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2474,7 +2474,7 @@ MonoBehaviour:
   m_margin: {x: 233.22955, y: 109.34119, z: 219.23584, w: 346.247}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1956447333
@@ -2639,7 +2639,7 @@ MonoBehaviour:
     Sh\u01D4, la astuta rata. Gracias a su astucia, agilidad y tama\xF1o, logr\xF3
     escabullirse de su ataque."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af7e5f34e99082e41a5e275e90181da4, type: 2}
   m_sharedMaterial: {fileID: -8878570324001900779, guid: 67dc044bff0f8c64cba5d401a743943a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2703,7 +2703,7 @@ MonoBehaviour:
   m_margin: {x: 233.22955, y: 109.34119, z: 219.23584, w: 346.247}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2063640084
