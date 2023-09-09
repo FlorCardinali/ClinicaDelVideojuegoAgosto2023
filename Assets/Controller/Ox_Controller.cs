@@ -17,7 +17,7 @@ public class Ox_Controller :  controller
             if(press_x)
             {
 
-                Destroy(collision.collider.gameObject);
+                destroyRock(collision);
             }
             
         }
@@ -25,7 +25,7 @@ public class Ox_Controller :  controller
 
     private void destroyRock(Collision2D collision)
     {
-        animator.SetTrigger("Attack");
+        
         Destroy(collision.collider.gameObject);
     }
     protected void OnTriggerEnter2D(Collider2D collision)

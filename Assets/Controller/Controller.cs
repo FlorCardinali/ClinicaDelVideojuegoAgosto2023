@@ -67,6 +67,7 @@ public class controller : MonoBehaviour
     public void clickX()
     {
         //clickeado
+        animator.SetBool("Attack", true);
         press_x = true;
     }
     public void clickRight()
@@ -118,6 +119,7 @@ public class controller : MonoBehaviour
     public void realeaseX()
     {
         //soltado
+        animator.SetBool("Attack", false);
         press_x = false;
     }
 

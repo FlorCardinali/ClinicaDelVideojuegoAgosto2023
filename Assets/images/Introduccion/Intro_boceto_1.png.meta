@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Intro_boceto_1_0: 5947370571419736300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
