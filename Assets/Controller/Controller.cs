@@ -11,6 +11,10 @@ public class controller : MonoBehaviour
     //sistema de movimiento
     [SerializeField] protected float up_force = 2f;
     [SerializeField] protected float velocity = 2f;
+    [SerializeField] AudioSource src;
+    [SerializeField] AudioClip sfxSalto1, sfxSalto2;
+    [SerializeField] AudioClip sfxLlave;
+    
     bool isLeft = false;
     bool isRight = false;
     protected bool press_x = false;
@@ -84,9 +88,26 @@ public class controller : MonoBehaviour
         if (is_on_floor)
         {
             animator.SetBool("IsJumping", true);
+            OnButtonJumpSound();
             own_rb.AddForce(Vector2.up * up_force, ForceMode2D.Impulse);
             is_on_floor=false;
         }   
+    }
+    public void OnButtonJumpSound()
+    {
+        int numberSound = (Random.Range(0, 2));
+        if(numberSound == 1)
+        {
+            src.clip = sfxSalto1;
+            
+        }
+        else
+        {
+            src.clip = sfxSalto2;
+            
+        }
+        src.Play();
+            
     }
     public void realeaseX()
     {

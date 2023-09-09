@@ -15,7 +15,7 @@ public class Ox_Controller :  controller
         {
             if(press_x)
             {
-                animator.SetTrigger("Attack");
+
                 Destroy(collision.collider.gameObject);
             }
             
@@ -24,7 +24,8 @@ public class Ox_Controller :  controller
 
     private void destroyRock(Collision2D collision)
     {
-            Destroy(collision.collider.gameObject);
+        animator.SetTrigger("Attack");
+        Destroy(collision.collider.gameObject);
     }
   
 }

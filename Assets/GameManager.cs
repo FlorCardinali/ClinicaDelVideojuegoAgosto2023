@@ -5,7 +5,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
+
 {
+    [SerializeField] AudioSource src;
+    [SerializeField] AudioClip sfxJaula1, sfxJaula2, sfxJaula3;
+    [SerializeField] AudioClip sfxLlave;
     //control de llave
     public bool haveKey { get; private set;} = false;
 
@@ -26,11 +30,41 @@ public class GameManager : MonoBehaviour
     public void AgarrarLlave()
     {
         haveKey = true;
+        keySound();
+        src.Play();
     }
-    public void TocarJaula()
+    public void keySound()
+    {     
+            src.clip = sfxLlave;
+    }
+
+    public void cageSound()
+    {
+        int numberSound = (Random.Range(0, 4));
+        if (numberSound == 1)
+        {
+            src.clip = sfxJaula1;
+
+        }
+        if (numberSound == 2)
+        {
+            src.clip = sfxJaula2;
+
+        }
+        if (numberSound == 3)
+        {
+            src.clip = sfxJaula3;
+
+        }
+        src.Play();
+    }
+
+        public void TocarJaula()
     {
         if (haveKey)
         {
+            cageSound();
+            src.Play();
             changeScene(); 
         }    
     }
